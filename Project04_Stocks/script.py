@@ -14,3 +14,4 @@ sanepar = loading_data("SAPR4.SA")
 vale = loading_data("VALE3.SA")
 klabin = loading_data("KLBN4.SA")
 taesa = loading_data("TAEE4.SA")
+
