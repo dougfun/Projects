@@ -41,7 +41,6 @@ for excel in files:
             df = pd.read_excel(f'planilhas\\{excel}')
             df.insert(0, 'Segmento', segmento)
             df.insert(1, 'País', pais)
-        # Adding to consolidated (Excel)
             consolidado = consolidado.append(df)
             
         except:
@@ -51,17 +50,11 @@ for excel in files:
         with open('log_errors.txt', 'w') as file:
             file.write(f'The file {excel} is not valid as excel.')
 
-# Date is in American type (m-d-y), but we want the Brazilian type (d-m-y). 
-# NOTE: First we need to change 'Data' (object) to datetime64. So:
-consolidado['Data'] = pd.to_datetime(consolidado['Data']) # then:
+
+consolidado['Data'] = pd.to_datetime(consolidado['Data']) 
 consolidado['Data'] = consolidado['Data'].dt.strftime('%d/%m/%Y')
 
 # Exports the consolidated dataframe to excel 
 consolidado.to_excel(f"Report-consolidado-{data.strftime('%d-%m-%Y')}.xlsx", 
                      index = False,
                      sheet_name = 'Report Consolidated')
-
-# Follow this steps to make it work:
-# 1- Inside the folder where the project is saved, right click and open a terminal,
-# 2- Type inside the terminal: python .\consolidator.py
-# 3- We are all set to do the job!!
