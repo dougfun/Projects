@@ -11,5 +11,5 @@ I am eager to learn and grow as a data analyst, and I am excited about the oppor
 
 As an aspiring data analyst, I am always looking to improve my skills and knowledge in SQL. I am open to feedback and criticism about my projects, as I believe this can help me identify areas for improvement and enhance my abilities as a data analyst.
 
-As a data analyst with experience and a passion for leveraging data to drive decision-making, I believe I am a strong fit for any data analyst role. I have honed my skills through various projects and coursework, and I am eager to continue expanding my knowledge and abilities. I invite you to review my portfolio and reach out to me to discuss my qualifications further. 
+Always passionate for leveraging data to drive decision-making, I believe I am a strong fit for any data analyst role. I have honed my skills through various projects and coursework, and I am eager to continue expanding my knowledge and abilities. I invite you to review my portfolio and reach out to me to discuss my qualifications further. 
 Thank you for considering my as a candidate, I look forward to the opportunity to contribute my skills to your team.
